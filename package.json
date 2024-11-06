@@ -1,0 +1,56 @@
+{
+  "name": "automated-tests",
+  "version": "1.0.1",
+  "description": "Repository for UI automated tests which can be utilized across services or front end repositories",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:MoleculeEngineering/automated-tests.git"
+  },
+  "author": "Chetan K <chetank@Albert-IN-LT-049.bbrouter>",
+  "license": "MIT",
+  "scripts": {
+    "allure:generate": "allure generate allure-results --clean",
+    "allure:open": "allure open",
+    "test:cucumber": "node --expose-gc ./node_modules/.bin/cucumber-js",
+    "coverage:report": "nyc report --reporter=lcov"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "mammoth": "^1.8.0",
+    "node-readability": "^3.0.0",
+    "pdf-parse": "^1.1.1",
+    "winston": "^3.13.0",
+    "winston-daily-rotate-file": "^5.0.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.24.6",
+    "@babel/preset-env": "^7.24.6",
+    "@babel/register": "^7.24.6",
+    "@cucumber/cucumber": "^10.6.0",
+    "@faker-js/faker": "^8.4.1",
+    "@istanbuljs/nyc-config-babel": "^3.0.0",
+    "@playwright/browser-chromium": "^1.46.0",
+    "@playwright/browser-firefox": "^1.46.0",
+    "@playwright/browser-webkit": "^1.46.0",
+    "@playwright/test": "^1.46.0",
+    "allure-commandline": "^2.29.0",
+    "allure-cucumberjs": "^2.15.1",
+    "aws-sdk": "^2.1606.0",
+    "cucumber-parallel": "^2.0.3",
+    "cucumber-pretty": "^6.0.1",
+    "eslint": "^8.0.1",
+    "eslint-config-standard": "^17.1.0",
+    "eslint-plugin-import": "^2.25.2",
+    "eslint-plugin-n": "^15.0.0 || ^16.0.0 ",
+    "eslint-plugin-promise": "^6.0.0",
+    "eslint-plugin-sonarjs": "^0.23.0",
+    "install-deps": "^1.1.0",
+    "istanbul-lib-coverage": "^3.2.2",
+    "jscpd": "^3.5.10",
+    "multiple-cucumber-html-reporter": "^3.8.0",
+    "node-2fa": "^2.0.3",
+    "nyc": "^15.1.0",
+    "xml2js": "^0.6.2"
+  }
+}
