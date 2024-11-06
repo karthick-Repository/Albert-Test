@@ -1,0 +1,10 @@
+{
+    "login": "https://maya.albertinventdev.com/albert.html#login/selectUser?target=center&redirect=/albert.html",
+    "reports": "https://maya.albertinventdev.com/albert.html#alreport/main?myreports",
+    "projects": "https://maya.albertinventdev.com/albert.html#alproject/main?",
+    "unclaimed tasks": "https://maya.albertinventdev.com/albert.html#altask/main?Status=Unclaimed&Location=Location%25201&sortBy=createdat_desc",
+    "all tasks": "https://maya.albertinventdev.com/albert.html#altask/main?sortBy=createdat_descheader",
+    "all inventories": "https://maya.albertinventdev.com/albert.html#alinventory/main?sortBy=createdAt",
+    "all parameter groups": "https://maya.albertinventdev.com/albert.html#alpg/main?",
+    "all data templates": "https://maya.albertinventdev.com/albert.html#aldt/main?"
+}
